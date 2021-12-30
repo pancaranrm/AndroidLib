@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainBlue">#7166F9</color>
+    <color name="softPurple">#D9D5FD</color>
+    <color name="softYellow">#FFEDC8</color>
+    <color name="softPink">#FEDEED</color>
+    <color name="softGrey">#9C9EA8</color>
+    <color name="mainBlack">#06070D</color>
+    <color name="telatBalik">#FFC41F</color>
+    <color name="sdhBalik">#7166F9</color>
+    <color name="blmBalik">#F15024</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

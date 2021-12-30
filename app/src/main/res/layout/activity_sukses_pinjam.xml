@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Succesed!"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Pergi Ke Perpustakaan"
+            android:textSize="20dp"
+            android:textColor="#606060"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="330dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sukses" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Back to home"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

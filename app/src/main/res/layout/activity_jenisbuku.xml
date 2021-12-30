@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jenisbuku">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <SearchView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/pmedium"
+            android:id="@+id/edtEmail"
+            android:background="@drawable/bg_btn2"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fiksi"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/softPurple"
+            android:fontFamily="@font/pmedium"
+            android:text="Fiksi"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/paket"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/softYellow"
+            android:fontFamily="@font/pmedium"
+            android:text="Paket"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/nonfiksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/softPink"
+            android:fontFamily="@font/pmedium"
+            android:text="Non Fiksi"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="163dp"
+            android:src="@drawable/bkcilA" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bkcilB" />
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bkcilE" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="163dp"
+            android:src="@drawable/bkcilE" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bkcilD" />
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bkcilC" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="163dp"
+            android:src="@drawable/bkcilB" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bkcilA" />
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bkcilD" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

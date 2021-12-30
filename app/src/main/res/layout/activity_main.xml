@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pinjam buku tanpa ribet"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/estart" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t waste your time."
+            android:textSize="20dp"
+            android:textColor="#606060"
+            android:textStyle="bold"
+            />
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnBuka"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="60dp"
+            android:text="Get Started"
+            android:textColorHighlight="@color/black"
+            android:textStyle="bold"
+            android:letterSpacing="0.04"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <SearchView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/pmedium"
+            android:id="@+id/edtEmail"
+            android:background="@drawable/bg_btn2"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fiksi"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/softPurple"
+            android:fontFamily="@font/pmedium"
+            android:text="Fiksi"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/paket"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/softYellow"
+            android:fontFamily="@font/pmedium"
+            android:text="Paket"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/nonfiksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/softPink"
+            android:fontFamily="@font/pmedium"
+            android:text="Non Fiksi"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Books"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:fontFamily="@font/pmedium"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bukua"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bukub"
+                />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pmedium"
+            android:text="History"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/bukua" />
+
+        <TextView
+            android:id="@+id/ta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/i1"
+            android:fontFamily="@font/pbold"
+            android:letterSpacing="0.01"
+            android:text="The Book of Chanel"
+            android:textColor="@color/mainBlack"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ta1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/i1"
+            android:fontFamily="@font/pregular"
+            android:text="Suzy Menkes "
+            android:textColor="@color/mainBlack"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tb1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/i1"
+            android:src="@drawable/star" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+

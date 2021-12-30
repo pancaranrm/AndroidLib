@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bukuTerpinjam">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <SearchView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/pmedium"
+            android:id="@+id/edtEmail"
+            android:background="@drawable/bg_btn2"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Buku Terpinjam"
+        android:fontFamily="@font/pbold"
+        android:textSize="20dp"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/bukub" />
+
+        <TextView
+            android:id="@+id/ta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/i1"
+            android:fontFamily="@font/pbold"
+            android:letterSpacing="0.01"
+            android:text="The Book of Signs"
+            android:textColor="@color/mainBlack"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ta1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/i1"
+            android:text="15 Dec - 6:20 AM"
+            android:textColor="@color/mainBlack"
+            android:fontFamily="@font/pregular"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tb1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/i1"
+            android:fontFamily="@font/pbold"
+            android:text="Sudah Dikembalika"
+            android:textColor="@color/sdhBalik"
+            android:textSize="16dp" />
+
+
+        <RadioGroup
+            android:id="@+id/rdGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="13dp"
+            android:padding="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/bukua" />
+        <TextView
+            android:id="@+id/ta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/i2"
+            android:fontFamily="@font/pbold"
+            android:letterSpacing="0.01"
+            android:text="The Book of Chanel"
+            android:textColor="@color/mainBlack"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ta2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/i2"
+            android:text="15 Dec - 6:20 AM"
+            android:textColor="@color/mainBlack"
+            android:fontFamily="@font/pregular"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tb2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/i2"
+            android:fontFamily="@font/pbold"
+            android:text="Belum Dikembalikan"
+            android:textColor="@color/blmBalik"
+            android:textSize="16dp" />
+        <RadioGroup
+            android:id="@+id/rdGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="13dp"
+            android:padding="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/bukc" />
+        <TextView
+            android:id="@+id/ta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/i3"
+            android:fontFamily="@font/pbold"
+            android:letterSpacing="0.01"
+            android:text="The Calighrpahy"
+            android:textColor="@color/mainBlack"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ta3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/i3"
+            android:text="15 Dec - 6:20 AM"
+            android:textColor="@color/mainBlack"
+            android:fontFamily="@font/pregular"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tb3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/i3"
+            android:fontFamily="@font/pbold"
+            android:text="Telat Dikembalikan"
+            android:textColor="@color/telatBalik"
+            android:textSize="16dp" />
+        <RadioGroup
+            android:id="@+id/rdGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="13dp"
+            android:padding="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/bkcilA" />
+        <TextView
+            android:id="@+id/ta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/i4"
+            android:fontFamily="@font/pbold"
+            android:letterSpacing="0.01"
+            android:text="The Calighrpahy"
+            android:textColor="@color/mainBlack"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ta4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/i4"
+            android:text="15 Dec - 6:20 AM"
+            android:textColor="@color/mainBlack"
+            android:fontFamily="@font/pregular"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tb4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/i4"
+            android:fontFamily="@font/pbold"
+            android:text="Telat Dikembalikan"
+            android:textColor="@color/telatBalik"
+            android:textSize="16dp" />
+        <RadioGroup
+            android:id="@+id/rdGroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="13dp"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
